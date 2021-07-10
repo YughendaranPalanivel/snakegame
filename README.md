@@ -53,15 +53,15 @@ The logic is very simple
 * setInterval - Create a setInterval. At each interval copy snake head in a temp variable (var temp = [x1,y1]) and right shift snake array and just add temp & adder and copy it to snake head
     snake[0] = [temp[0]+adder[0], temp[0]+adder[0]]
 
-Whenever the snake  position matches with the food postion (x === x1 && y === y1) just append [snake[snake.length-1][0]-adder[0],snake[snake.length-1][1]-adder[1]] in snake array and call create random food method. Also increment the score by one
+    Whenever the snake  position matches with the food postion (x === x1 && y === y1) just append [snake[snake.length-1][0]-adder[0],snake[snake.length-1][1]-adder[1]] in snake    array and call create random food method. Also increment the score by one
 
-We can check boundry condition if snake head [x1,y1] match this consiton (x1==0 || y1==0 || x1==board_size || y1 == board_size)
+    We can check boundry condition if snake head [x1,y1] match this consiton (x1==0 || y1==0 || x1==board_size || y1 == board_size)
 
-We can also check if a snake byte itsef by if snake head [x1,y1] is present in the remaining array form 1 to snake.length 
+    We can also check if a snake byte itsef by if snake head [x1,y1] is present in the remaining array form 1 to snake.length 
 
-Now we want to update our 2D arry loop through snake array and set value as 1 at snake position and set value as 2 at food position.
+    Now we want to update our 2D arry loop through snake array and set value as 1 at snake position and set value as 2 at food position.
 
-* Using React Hooks - I use useState hook for snake board and for score so each time when you update it the UI get rendered        
+    * Using React Hooks - I use useState hook for snake board and for score so each time when you update it the UI get rendered        
 
 ## Authors
 
