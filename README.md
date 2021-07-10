@@ -67,5 +67,5 @@ The logic is very simple
 
 ## Me
 
-ex. Yughendaran P  
-ex. [@Yughendaran](https://www.linkedin.com/in/yughendaran-palanivel-68a5a2211)
+Yughendaran P  
+[@Yughendaran](https://www.linkedin.com/in/yughendaran-palanivel-68a5a2211)
