@@ -61,7 +61,7 @@ The logic is very simple
 
     Now we want to update our 2D arry loop through snake array and set value as 1 at snake position and set value as 2 at food position.
 
-    * Using React Hooks - I use useState hook for snake board and for score so each time when you update it the UI get rendered        
+* Using React Hooks - I use useState hook for snake board and for score so each time when you update it the UI get rendered        
 
 ## Authors
 
