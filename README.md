@@ -35,9 +35,9 @@ Creating a snake game in react is extremely easy. I used react hooks to create f
 The logic is very simple 
 * Creating Board - You want to create a 2D Array in JS and use map method to create rows and cells. This array can take three possible values
 
-[0] - Empty Cell
-[1] - Snake Cell
-[2] - Foode cell
+    * [0] - Empty Cell
+    * [1] - Snake Cell
+    * [2] - Foode cell
 
 * Creating food - Create a simple function using Math.randome to create a random array [x,y] indicating food position in 2D Array
 
@@ -45,10 +45,10 @@ The logic is very simple
 
 * Handling user input  - Create a keydown event listener and listen to key values and set an adder value representing row and column (var adder = [r,w] ) to be added at each interval and you can also create virtual keys for mobiles and do the same.
 
-    [ArrowUp] - [-1, 0] 
-    [ArrowDown] - [1, 0] 
-    [ArrowLeft] - [0, -1] 
-    [ArrowUp] - [0, 1]  
+    * [ArrowUp] - [-1, 0] 
+    * [ArrowDown] - [1, 0] 
+    * [ArrowLeft] - [0, -1] 
+    * [ArrowUp] - [0, 1]  
 
 * setInterval - Create a setInterval. At each interval copy snake head in a temp variable (var temp = [x1,y1]) and right shift snake array and just add temp & adder and copy it to snake head
     snake[0] = [temp[0]+adder[0], temp[0]+adder[0]]
