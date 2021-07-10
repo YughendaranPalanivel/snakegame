@@ -45,10 +45,10 @@ The logic is very simple
 
 * Handling user input  - Create a keydown event listener and listen to key values and set an adder value representing row and column (var adder = [r,w] ) to be added at each interval and you can also create virtual keys for mobiles and do the same.
 
-[ArrowUp] - [-1, 0] 
-[ArrowDown] - [1, 0] 
-[ArrowLeft] - [0, -1] 
-[ArrowUp] - [0, 1]  
+    [ArrowUp] - [-1, 0] 
+    [ArrowDown] - [1, 0] 
+    [ArrowLeft] - [0, -1] 
+    [ArrowUp] - [0, 1]  
 
 * setInterval - Create a setInterval. At each interval copy snake head in a temp variable (var temp = [x1,y1]) and right shift snake array and just add temp & adder and copy it to snake head
     snake[0] = [temp[0]+adder[0], temp[0]+adder[0]]
