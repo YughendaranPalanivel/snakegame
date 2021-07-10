@@ -65,9 +65,7 @@ The logic is very simple
 
 * Using React Hooks - I use useState hook for snake board and for score so each time when you update it the UI get rendered        
 
-## Authors
-
-Contributors names and contact info
+## Me
 
 ex. Yughendaran P  
 ex. [@Yughendaran](https://www.linkedin.com/in/yughendaran-palanivel-68a5a2211)
