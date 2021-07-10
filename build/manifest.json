@@ -1,0 +1,15 @@
+{
+  "short_name": "React Snake Game",
+  "name": "React Snake Game",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait",
+  "icons": [
+      {
+       "src": "./logo.png",
+       "type": "image/png",
+       "sizes": "500x500"
+      }
+  ]
+}
