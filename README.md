@@ -6,6 +6,10 @@ URL : https://yughendaranpalanivel.github.io/snakegame/build/index.html
 
 Creating a snake game in react is extremely easy. I used react hooks to create function based components (You can also implement using class ) and done some CSS styling. 
 
+## Snapshot
+
+![alt snake game](https://i.ibb.co/L8wR9km/Capture33.png)
+
 ## Getting Started
 
 ### Dependencies
